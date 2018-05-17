@@ -1,0 +1,24 @@
+<?php 
+
+error_reporting(0); // Turn off error reporting text
+
+// Since last [rank_day] days
+define('day_rank', 30);
+
+// Secret key
+define('SECRET', 'Fim@FPT1309');
+
+// Group ID
+define('GroupID', '000000000000000');
+
+// Your Token (Please using iPhone/Android/iOS access_token)
+define('access_token', 'XXXXXXXXXXXXXXX');
+
+// Arrray Points Count
+$pnt = array(
+		'points_per_post' => 5,
+		'points_per_comment' => 2,
+		'points_per_commented' => 2,
+		'points_per_reaction' => 1,
+		'points_per_reacted' => 1
+		);
